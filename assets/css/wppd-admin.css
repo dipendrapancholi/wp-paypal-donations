@@ -1,0 +1,125 @@
+/********** CSS for Shortcode Popup ***********/
+.wppd-popup-content {
+    margin: 0 auto 10px;
+    min-height: 450px;
+    display: none;
+	position: absolute;
+	border: 1px solid #555555;
+	top: 60px;
+	left: 0;
+	right: 0;
+	max-width: 800px;
+	background: none repeat scroll 0 0 #FFFFFF;
+	z-index:10002;
+	font: 12px "Lucida Grande",Verdana,Arial,sans-serif;
+	box-shadow: 0 4px 30px #000000;
+	color: #000000;	
+}
+.wppd-popup-overlay {
+	display: none;
+	background-color: #000000;
+    height: 100%;
+    left: 0;
+    opacity: 0.75;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+.wppd-popup-header-title {
+    float: left;
+    padding: 6px 10px 0;
+}
+.wppd-popup-close {
+ 	float: right;
+    padding: 6px 10px 0;
+    text-align: right;
+}
+.wppd-header-popup {
+    background-color: #222222;
+    color: #CFCFCF;
+    height: 27px;  
+    position: relative;
+    width: 100%;
+}
+.wppd-popup-content table.form-table {
+	margin : 15px !important;
+	width: 80% !important;	
+}
+.wppd-popup-error{
+	display:none;
+}
+.wppd-popup-error {
+	padding:10px;
+	border:1px solid #CC0000;
+	background-color:#FFEBE8;
+	border-radius:5px;
+}
+#wppd_insert_shortcode {
+	margin: 15px;	
+}
+/********** End CSS for Shortcode Popup ***********/
+
+#countdown_dashboard_1 #CountDownTimerl{
+	height:auto !important;
+}
+.wppd-require {
+	color:red;
+}
+.wppd_hide_label {
+	margin-bottom: auto !important;
+}
+.inside #size {
+	width:40% ;
+}
+tr.counter_des td {
+	  padding-top: 10px;
+	  padding-bottom: 10px;
+}
+.splash_wrap {
+	margin-top : 6%;
+}
+
+/** Start slider css **/
+.wppd_slider {
+    /*removes default webkit styles*/
+    -webkit-appearance: none;
+    
+    /*fix for FF unable to apply focus style bug */
+    border: 1px solid  #d9d9d9;
+    
+    /*required for proper track sizing in FF*/
+    width: 250px;
+}
+
+.ui-slider-horizontal .ui-slider-handle
+{
+	border-radius : 0.8em;
+}
+div.ui-slider-range.ui-widget-header {
+    background: black;
+}
+/** End slider css **/
+
+.wppd_slider_left {
+  float: left;
+  width: 225px;
+  text-align: right;
+  margin: 2px 0px;
+  display: inline;
+}
+
+.wppd_slider_val_right {
+  float: left;
+  text-align: left;
+  margin: -6px 1px 1px 32px;
+  display: inline;
+}
+
+/*  */
+
+
+.labelnew
+{
+	margin-top : auto ;
+}
