@@ -1,11 +1,11 @@
 <?php
 /**
  * Plugin Name: WordPress PayPal Donations
- * Plugin URI:  http://www.serveonetech.com/
+ * Plugin URI:  https://dharmisoft.com/
  * Description: WordPress PayPal Donations allows you easy and simple setup and insertion of PayPal donate buttons using a shortcode or through a Widget. You can create multiple donation button.
  * Version: 1.0.0
  * Author: Serveonetech
- * Author URI: http://www.serveonetech.com/
+ * Author URI: https://profiles.wordpress.org/dipendrapancholi/
  * Text Domain: wppd
  * Domain Path: languages
  * 
