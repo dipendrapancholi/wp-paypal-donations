@@ -96,13 +96,13 @@ function wppd_add_plugin_links( $links ) {
 	
 	$plugin_links = array(
 		'<a href="admin.php?page=wc-settings&tab=wppd">' . __( 'Settings', 'wppd' ) . '</a>',
-		'<a target="_blank" href="http://support.serveonetech.com/">' . __( 'Support', 'wppd' ) . '</a>',
-		'<a target="_blank" href="http://serveonetech.com/documents/wp-paypal-donations/">' . __( 'Docs', 'wppd' ) . '</a>'
+		//'<a target="_blank" href="http://support.serveonetech.com/">' . __( 'Support', 'wppd' ) . '</a>',
+		//'<a target="_blank" href="http://serveonetech.com/documents/wp-paypal-donations/">' . __( 'Docs', 'wppd' ) . '</a>'
 	);
 	
 	return array_merge( $plugin_links, $links );
 }
-//add_filter( 'plugin_action_links_' . plugin_basename( __FILE__ ), 'woo_os_add_plugin_links' );
+add_filter( 'plugin_action_links_' . plugin_basename( __FILE__ ), 'woo_os_add_plugin_links' );
 
 
 /**
